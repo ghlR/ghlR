@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+body {
+    text-align: left;
+    background: #f2f2f2;
+}
+.product_guide a{
+    text-decoration: none;
+    display: block;
+    margin-top: -3px;
+    padding: 5px 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #2b2b2b;
+}
+a.cur{
+    color:#f60;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+img {
+    vertical-align: middle
+}
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+
+/***************************产品列表样式******************************************/
+#ProBox {
+    /*margin-top: 15px;*/
+}
+
+#ProBox .col-xs-12 {
+    margin-bottom: 20px;
+}
+.product_guide {
+    background-color: #fff;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.product_guide {
+    background-color: #fff;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.pro_guide_main {
+    border-bottom: none;
+
+}
+.pro_guide_main .v-fold strong{
+    display: inline-block;
+    float: left;
+}
+.pro_guide_main .v-fold ul{
+    float: left;
+}
+.pro_guide_main .v-fold ul li {
+    padding: 0px;
+    line-height: 14px;
+    display: inline-block;
+
+}
+
+.pro_guide_main .v-fold {
+    display: block;
+    clear: both;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(227,227,227);
+}
+
+
+/***************************产品列表样式******************************************/
+
+
+#ProBox .thumbnail {
+    border: none;
+    margin-bottom: 0px;
+}
+
+#ProBox .thumbnail img {
+}
+.ProList .col-xs-12, .ProList .col-sm-4, .ProList .col-md-3{
+    padding-left: 0;
+    padding-right: 20px;
+}
+#ProBox .caption {
+    position: relative;
+    background-color: #fff;
+    top: 0px;
+    height: 100px;
+    overflow: hidden;
+    box-shadow: 0px 2px 3px #e6e6e6;
+    -webkit-box-shadow: 0px 2px 3px #e6e6e6;
+    -moz-box-shadow: 0px 2px 3px #e6e6e6;
+}
+
+#ProBox .caption h3 {
+    font-size: 1em;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    border-top: 1px dotted #bcbcbc;
+}
+
+#ProBox .caption h3.cenh3 {
+    /*text-align: center;*/
+}
+
+#ProBox .caption h3 img {
+    margin-top: 5px;
+}
+
+#ProBox .caption p {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    color: #555;
+}
+.plbox{
+    margin-top: 25px;
+}
+.plbox a {
+    padding: 0;
+    display: block;
+    transition: All .5s linear;
+
+}
+.plbox a img{
+    width: 100%;
+    height: 100%;
+}
+
+.plbox a:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2)
+}
+
+#ProBox .col-sm-3 h3,#ProBox .col-sm-3 p {
+    text-align: center;
+}
+
+#ProBox .col-xs-12 .caption {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-animation: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.plbox .tdbuygo {
+    position: relative;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 2px 5px;
+    color: #fff ! important;
+    text-align: center;
+    background: #f4083b;
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.plbox .tdbuygo:before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 0;
+    width: 1px;
+    height: 16px;
+    border-left: 3px solid #fdb813;
+    border-right: 3px solid #f4083b;
+    background: #fff;
+    -webkit-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+/*****************************************************************加载更多*/
+.pro_more {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fefefe;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,195 @@
+
+/****************************焦点图**********************/
+.carousel-inner>.item>a>img,.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img{
+    display:block;max-width:100%;height:100%
+}
+.banner_img img{
+    transform:scaleX(1.22);
+}
+.banner_btn{
+    position: absolute;
+    top:68%;
+    left:20%;
+}
+.goods_des,.buy_goods{
+    font-size:16px;
+    width: 80px;
+    padding:5px 15px;
+}
+.goods_des{
+    text-align: center;
+    border: 2px solid #d24201;
+    color:#d24201;
+    margin-right:20px;
+}
+.goods_des:hover{
+    color:#d24201;
+}
+.buy_goods{
+    background: #fd4f00;
+    color:#fff;
+    padding:8px 18px;
+}
+.buy_goods:hover{
+    color:#fff;
+}
+.pre_icon,.next_icon{
+    position: absolute;
+    top:50%;
+    font-size:45px;
+    opacity: 0;
+    transition:all 0.5s;
+}
+.pre_icon{
+    position: absolute;
+    left:50px;
+}
+.next_icon{
+    position: absolute;
+    right:50px;
+}
+.toggle{
+    opacity: 1;
+    transition:all 0.5s;
+}
+.carousel-indicators{
+    margin-bottom:20px;
+}
+.carousel-indicators li{
+    width: 8px;
+    height:8px;
+    margin-right:6px;
+    background: #2f2f2f;
+    border:0;
+}
+.carousel-indicators .active{
+    margin-right:6px;
+    width:12px;
+    height: 12px;
+    background: none;
+    border: 2px solid #808080;
+    border-radius: 50%;
+    position: relative;
+    top:1px;
+}
+
+/**************************家用新品***************/
+.serve_list{
+    padding-bottom:20px;
+}
+.home_new{
+    width: 100%;
+    background: #fff;
+    padding-bottom:60px;
+}
+.content{
+    text-align: center;
+}
+.content .sec_title{
+    margin-top:68px;
+    font-size:22px;
+    color:#000;
+}
+.content em{
+    font-style: normal;
+}
+.content a{
+    color:#000;
+    font-size:16px;
+}
+.content a:hover{
+    color:#fd4f00;
+}
+.title_line{
+    background:url("../images/index_img/lineb.png")no-repeat center 0;
+    margin:17px 0 21px 0;
+}
+.little_list{
+    border-bottom: 1px solid #e7e8e9;
+}
+.home_new img{
+    width: 100%;
+}
+.home_new .del_des em{
+    display: block;
+    margin-top: 21px;
+}
+.img_scale:hover img{
+    transform:scale(0.97,0.97);
+    transition:all 0.5s;
+}
+.img_scale{
+    transform:scale(1,1);
+    transition:all 1s;
+}
+
+/************************商用网络***********************/
+.business_net{
+    width: 100%;
+    padding-bottom:45px;
+    background: #f2f2f2;
+}
+.business_net img{
+    width: 100%;
+}
+.del_des h3,dt,dd{
+    text-align: left;
+    background: #fff;
+    line-height:30px;
+}
+.del_box{
+    display: block;
+    width:100%;
+    background: #fff;
+}
+.del_des dl{
+    padding:15px;
+}
+
+/************************走进腾达**************************/
+.walk_in_td{
+    width: 100%;
+    padding-bottom:45px;
+    background: #fff;
+}
+.walk_in_td dl{
+    padding:0;
+}
+.walk_in_td img{
+    width: 100%;
+}
+
+/***********************服务支持**************************/
+.fw_support{
+    width: 100%;
+    padding-bottom:45px;
+    background: #f2f2f2;
+}
+.fw_support img{
+    padding-top:20px;
+    position: relative;
+    left:50%;
+    top:20px;
+    margin-left:-66px;
+    width: 140px;
+}
+.fw_support dt{
+    color:#333333;
+    text-align: center;
+}
+.fw_support dd{
+    color:#666666;
+    text-align: center;
+}
+.fw_support_list:hover{
+    box-shadow:0 0 20px rgba(0,0,0,0.2) ;
+    position: relative;
+    bottom:5px;
+    transition: all 0.5s;
+}
+.fw_support_list{
+    box-shadow:none;
+    position: relative;
+    bottom:0;
+    transition: all 0.5s;
+}

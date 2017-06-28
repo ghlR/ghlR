@@ -1,0 +1,10 @@
+<!--导航-->
+<div nav="今日一刻" ishidden="true"></div>
+<!--加载中-->
+<div ng-if="isLoading" class="loading"><img src="images/tabIcon/loading.gif" alt=""></div>
+<!--列表-->
+<!--防止重新加载，设置子路由-->
+<!--step-1-->
+<div ui-view></div>
+<!--tab切换栏-->
+<div tabbar></div>

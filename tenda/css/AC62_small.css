@@ -1,0 +1,117 @@
+#Tenda_w100 { min-width: 400px }
+/*h3{color:red ! important;}*/
+.AC6h3size{font-size:20px;line-height:30px;padding-bottom:10px;}
+.AC6h4size{font-size:14px;line-height:20px;}
+
+
+.AC60{ height:400px;}
+.AC601{ height:124px;width:767px;}
+.AC602{ height:150px;width:767px;}
+.AC603{ height:126px;width:767px;}
+.AC60 h3 span{  display:block;font-size:26px;}
+.AC60 h3{ bottom:30px;font-size:18px; line-height:26px;}
+
+
+
+/*111光纤时代，赢在起跑11*/
+
+.AC61{ height:500px; }
+.AC61 .AC61pic1{ right:auto;left:50%; margin-left:-200px; width:400px; text-align:center;  }
+.AC61 .AC61box { top:20px;left:760px; width:400px;text-align:center; }
+.AC61 .AC61box h3 { text-align:center; }
+.AC61 .AC61box h4{ margin-top:0px;width:400px;text-align:center;}
+.AC61 .AC61pic2 { width:400px;}
+
+/*2222满足当下222*/
+
+.AC62{ height:400px;}
+
+.AC62 .AC62box {  width:400px;  margin-top:30px; }
+.AC62 .AC62pic1{width:200px; }/*大图枪*/
+.AC62 .AC62pic2 { width:400px;}/*小图*/
+
+/*3333与苹果同芯*/
+
+.AC63{ height:450px; }
+.AC63 .AC63box {  width:400px;  margin-top:30px; }
+.AC63 .AC63box h4 { padding-bottom: 30px; }
+.AC63 .AC63pic1{width:60px; }/*小图*/
+.AC63 .AC63pic2{width:400px; }/*小图*/
+.AC63 .AC63pic3 { width:400px;margin-left:-200px; }/*cpu*/
+
+
+/*4445G穿两墙444*/
+
+.AC64{ height:450px; }
+.AC64 .AC64box {  width:400px;  margin-top:30px; }
+.AC64 .AC64box h3{ padding-bottom:10px; }
+.AC64 .AC64pic1{width:400px; padding-bottom:0px;}/*小图*/
+
+
+/*55555采用独立射频FEM5555*/
+
+.AC65{ height:450px; }
+.AC65 .AC65box {  width:400px;   bottom:30px; margin-left:-200px;}
+.AC65 .AC65pic1{width:990px; margin-left:-495px; }/*小图*/
+
+
+
+/*666666Beamforming666666*/
+
+.AC66{ height:650px; }
+.AC66 .AC66box {  width:400px;  margin-top:30px; }
+
+.AC66 .AC66pic1{padding-bottom:20px;}/*小图*/
+.AC66 .AC66pic2{width:400px; }
+
+
+
+/*77777刀锋4天线77777*/
+
+.AC67{ height:450px; }
+.AC67 .AC67box {width:400px;  margin-top:30px;  }
+.AC67 .AC67pic1{width:400px; margin-top:40px;}
+
+
+/*8888888*/
+
+.AC68{ height:700px;}
+.AC68 .AC68pic1{ margin-left:-700px;width:1400px; }/*小图*/
+
+
+/*999快速安装9999*/
+
+
+.AC69{height:450px; }
+.AC69  .AC69box{  left:900px;top:50px; width:300px;}
+.AC69  .AC69box h3{ padding-bottom:20px;   }
+.AC69  .AC69box h4{width:250px;  padding-bottom:50px;}
+.AC69  .AC69box .AC692pic2{   width:200px;}/*30s*/
+.AC69  .AC691pic1{     left:760px; top:170px; width:400px;   }
+
+
+
+
+/*AC9S8 banner slid*/
+
+
+.AC9S8{height:464px; }
+.slides li{width:990px; height:464px ;}
+.flexslider{width:990px; height:464px ; margin-left:-495px;}
+.flex-control-nav{bottom:30px;}
+
+/*101APP管理010*/
+
+.AC610{ height:350px; }
+
+.AC610 .AC610box { top:20px;left:760px; width:400px; }
+.AC610 .AC610box h4{   margin-top:20px;width:500px;}
+.AC610 .AC610pic2 { width:300px;  margin-top:25px; padding-bottom:25px;}/*小图*/
+
+.AC610 .AC610pic1{ top:0px;right:360px; width:500px; }
+
+
+/*last*/
+
+.AC6last{ height:700px; }
+.AC6last .AC6lastpic1{   margin-left:-450px;width:900px; }/*小图*/

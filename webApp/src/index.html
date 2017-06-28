@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/index.css">
+    <!--默认屏幕大小，最大最小缩放比例，是否允许拖拽-->
+    <meta name="viewport" content="width=device-width maximum-scale=1.0 minimum-scale=1.0 user-scalable=no">
+</head>
+<body ng-app="app">
+<div ui-view></div>
+</body>
+<script>
+    //动态设置字体大小
+    var font = window.screen.width / 10+'px';
+    document.getElementsByTagName('html')[0].style.fontSize = font
+
+</script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="js/index.js"></script>
+</html>

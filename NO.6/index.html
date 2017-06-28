@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/zepto.min.js"></script>
+    <script src="js/swiper-3.4.1.jquery.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            list-style: none;
+        }
+        html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
+            width: 100%;
+            height: 100%;
+        }
+        .s1{
+            background: url(images/p1bg.jpg) no-repeat;
+            background-size: cover;
+        }
+        .s1 img{
+            position: absolute;
+            left:50%;
+            top:50%;
+        }
+        .s1 img:nth-child(1){
+            margin-top: -285px;
+            margin-left: -142px;
+        }
+        .s1 img:nth-child(2){
+            margin-top: -100px;
+            margin-left: -160px;
+        }
+        .s2{
+            background: url(images/p2bg.jpg) no-repeat;
+            background-size: cover;
+        }
+        .s2 img:nth-child(1){
+            right:-36px;
+            top:-7px;
+        }
+        .s2 img{
+            position: absolute;
+        }
+        .s2 img:nth-child(2){
+            top:40px;
+        }
+        .s2 img:nth-child(3){
+            top:335px;
+        }
+        .s2 img:nth-child(4){
+            top:50%;
+            left:50%;
+            margin-left: -42px;
+            margin-top: 110px;
+        }
+        .s2 img:nth-child(5){
+            top:50%;
+            right:0;
+            margin-top: 110px;
+        }
+        .s3{
+            background: url("images/p2bg.jpg") no-repeat;
+            background-size: cover;
+        }
+        .s3 img{
+            position: absolute;
+        }
+        .s3 img:nth-child(1){
+            left:50%;
+            top:115px;
+            margin-left: -100px;
+        }
+        .s3 img:nth-child(2){
+            left:50%;
+            top:20px;
+            margin-left: -38px;
+        }
+        .s3 img:nth-child(3){
+            left:50%;
+            top:70px;
+            margin-left: -165px;
+        }
+        .s3 img:nth-child(4){
+            left:50%;
+            top:150px;
+            margin-left: -9px;
+        }
+        .s3 img:nth-child(5){
+            left:50%;
+            top:150px;
+            margin-left: -118px;
+            margin-top: 44px;
+        }
+        .s3 img:nth-child(6){
+            left:50%;
+            top:122px;
+            margin-left: 48px;
+        }
+        .s3 img:nth-child(7){
+            left:50%;
+            top:192px;
+            margin-left: 28px;
+        }
+        .s3 img:nth-child(8){
+            left:50%;
+            top:136px;
+            margin-left: 116px;
+        }
+        .s3 img:nth-child(9){
+            left:50%;
+            top:50%;
+            margin-left: -166px;
+            margin-top: -48px;
+        }
+        .s4{
+            background: url("images/p2bg.jpg") no-repeat;
+            background-size: cover;
+        }
+        .s4 img{
+            position: absolute;
+        }
+        .s4>img:nth-child(1){
+            top:42px;
+            left:2px;
+        }
+        .s4>img:nth-child(2){
+            top:50%;
+            left:50%;
+            margin-left: -170px;
+            margin-top: 50px;
+        }
+        .s4 .arrow{
+            position: absolute;
+            left:50%;
+            top:50%;
+            margin-left: 30px;
+            margin-top: 100px;
+        }
+        .s4 .arrow img:nth-child(1){
+            margin-left: -35px;
+            margin-top: -90px;
+            animation: sport 0.5s infinite alternate;
+
+        }
+        .s4 .arrow img:nth-child(2){
+            margin-left: -66px;
+            margin-top: 50px;
+            animation: sport 0.5s 0.6s infinite alternate;
+        }
+        .s4 .arrow img:nth-child(3){
+            margin-left: 20px;
+            margin-top: 34px;
+            animation: sport 0.5s 0.7s infinite alternate;
+        }
+        .s4 .arrow img:nth-child(4){
+            margin-left: 73px;
+            margin-top: -27px;
+            animation: sport 0.5s 0.8s infinite alternate;
+        }
+        @keyframes sport {
+            0%{top:3px}
+            50%{top:-6px}
+            100%{top:-10px}
+        }
+    </style>
+    <script>
+        $(function(){
+            var mySwiper = new Swiper ('.swiper-container', {
+                direction: 'vertical',
+                mousewheelControl : true,
+                onInit: function(swiper){                     //Swiper2.x的初始化是onFirstInit
+                    swiperAnimateCache(swiper);           //隐藏动画元素
+                    swiperAnimate(swiper);                    //初始化完成开始动画
+                },
+                onSlideChangeEnd: function(swiper){
+                    swiperAnimate(swiper);                //每个slide切换结束时也运行当前slide动画
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide s1">
+            <img src="images/p1text1.png" width="280" class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="0">
+            <img src="images/p1text2.png" width="320" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="2s">
+        </div>
+        <div class="swiper-slide s2">
+            <img src="images/p2pic2.png" width="200" class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="0">
+            <img src="images/p2text1.png" width="235" class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="0">
+            <img src="images/p2text2.png" width="235" class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="3s">
+            <img src="images/p2pic1.png" width="200" class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="2s" swiper-animate-delay="1s">
+            <img src="images/p2pic3.png" width="100"  class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="1s" swiper-animate-delay="2s">
+        </div>
+        <div class="swiper-slide s3">
+            <img src="images/p3pic1.png" width="100" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0">
+            <img src="images/p3pic3.png" width="80" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+            <img src="images/p3pic5.png" width="85" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            <img src="images/p3pic2.png" width="65" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="2s">
+            <img src="images/p3pic4.png" width="45" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+            <img src="images/p3pic6.png" width="75" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+            <img src="images/p3pic7.png" width="55" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="2.7s">
+            <img src="images/p3pic8.png" width="65" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="3s">
+            <img src="images/p3text1.png" width="340" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="2.7s">
+        </div>
+        <div class="swiper-slide s4">
+            <img src="images/p4text1.png" width="369" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0">
+            <img src="images/p4pic1.png" width="300" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0">
+            <div class="arrow">
+                <img src="images/p4pic2.png" width="85" alt=""/>
+                <img src="images/p4pic3.png" width="55" alt=""/>
+                <img src="images/p4pic4.png" width="65" alt=""/>
+                <img src="images/p4pic5.png" width="80" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

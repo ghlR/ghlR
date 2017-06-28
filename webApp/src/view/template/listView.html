@@ -1,0 +1,29 @@
+<div class="hostView">
+    <div class="listView" ng-repeat="(key,data) in dataList" ui-sref="home.detail({id:key})">
+        <!--标签-->
+        <p class="tag" ng-if="data.column.name" ng-bind="data.column.name"></p>
+        <!--标题-->
+        <h4 ng-bind="data.title"></h4>
+        <!--单独一个段落-->
+        <div class="pos1" ng-if="data.display_style==10001">
+            <p ng-bind="data.abstract"></p>
+        </div>
+        <!--段落加图片-->
+        <div class="pos2" ng-if="data.display_style==10002">
+            <p ng-bind="data.abstract"></p>
+            <img ng-src="images/tabIcon/post_1.png" alt="">
+        </div>
+        <!--三张图片-->
+        <div class="pos3" ng-if="data.display_style==10003">
+            <ul>
+                <li><img src="images/tabIcon/post_3.png" alt=""></li>
+                <li><img src="images/tabIcon/post_4.png" alt=""></li>
+                <li><img src="images/tabIcon/post_5.png" alt=""></li>
+            </ul>
+        </div>
+        <!--一张图片-->
+        <div class="pos4" ng-if="data.display_style==10004">
+            <img src="images/tabIcon/post_2.png" alt="">
+        </div>
+    </div>
+</div>

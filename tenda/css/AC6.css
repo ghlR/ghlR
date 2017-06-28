@@ -1,0 +1,567 @@
+.AC6h3size {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 50px;
+    padding-bottom: 25px;
+}
+
+.AC6h4size {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+/*0000*/
+.AC60 {
+    height: 1000px;
+}
+
+.AC601 {
+    height: 310px;
+    width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+
+.AC602 {
+    height: 375px;
+    width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+
+.AC603 {
+    height: 315px;
+    width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+
+.AC60 h3 {
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.AC60 h3 span {
+    color: #f60;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+/*11111*/
+
+.AC61 {
+    height: 1149px;
+    background-color: #fff;
+}
+
+.AC61 .AC61pic1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 1920px;
+    z-index: 1;
+}
+
+.AC61 .AC61box {
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    width: 500px;
+    z-index: 2;
+}
+
+.AC61 .AC61box h3 {
+    color: #000;
+    text-align: left;
+}
+
+.AC61 .AC61box h3 span {
+    font-size: 0.6em;
+    display: block;
+}
+
+.AC61 .AC61box h4 {
+    color: #333;
+    text-align: left;
+    margin-top: 30px;
+    width: 350px;
+}
+
+.AC61 .AC61pic2 {
+    width: 400px;
+    z-index: 2;
+    margin-top: 55px;
+}
+
+/*2222222*/
+
+.AC62 {
+    height: 900px;
+    background-color: #eaeaec;
+}
+
+.AC62 .AC62box {
+    z-index: 2;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.AC62 .AC62box h3 {
+    color: #000;
+    text-align: center;
+}
+
+.AC62 .AC62box h4 {
+    color: #333;
+    text-align: center;
+}
+
+.AC62 .AC62pic1 {
+    width: 750px;
+    z-index: 1;
+}
+
+/*小图*/
+.AC62 .AC62pic2 {
+    width: 860px;
+    z-index: 2;
+    margin-top: 25px;
+}
+
+/*大图枪*/
+
+/*33333333*/
+
+.AC63 {
+    height: 900px;
+    background-color: #000;
+}
+
+.AC63 .AC63box {
+    z-index: 2;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.AC63 .AC63box h3 {
+    color: #FFF;
+    text-align: center;
+}
+
+.AC63 .AC63box h4 {
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.AC63 .AC63pic2 {
+    width: 900px;
+    z-index: 2;
+}
+
+/*小图*/
+.AC63 .AC63pic3 {
+    width: 1000px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -500px;
+    z-index: 1;
+}
+
+/*cpu*/
+
+/*444444*/
+
+.AC64 {
+    height: 900px;
+    background-color: #f5f5f5;
+}
+
+.AC64 .AC64box {
+    z-index: 2;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.AC64 .AC64box h3 {
+    color: #000;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.AC64 .AC64box h4 {
+    color: #333;
+    text-align: center;
+}
+
+.AC64 .AC64pic1 {
+    width: 900px;
+    z-index: 2;
+    padding-bottom: 50px;
+}
+
+/*小图*/
+
+/*555555555*/
+
+.AC65 {
+    height: 900px;
+    background-color: #000;
+}
+
+.AC65 .AC65box {
+    z-index: 2;
+    width: 1300px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    margin-left: -650px;
+}
+
+.AC65 .AC65box h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.AC65 .AC65box h4 {
+    color: #fff;
+    text-align: center;
+}
+
+.AC65 .AC65pic1 {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -960px;
+    z-index: 1;
+}
+
+/*小图*/
+
+/*666666666666*/
+
+.AC66 {
+    height: 900px;
+    background-color: #f5f5f5;
+}
+
+.AC66 .AC66box {
+    z-index: 2;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.AC66 .AC66box h4 {
+    color: #333;
+    text-align: center;
+}
+
+.AC66 .AC66pic1 {
+    padding-bottom: 30px;
+}
+
+/*小图*/
+.AC66 .AC66pic2 {
+    width: 660px;
+    z-index: 2;
+}
+
+/*7777777777*/
+
+.AC67 {
+    height: 900px;
+    background-color: #e6e6e6;
+}
+
+.AC67 .AC67box {
+    z-index: 2;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.AC65 .AC67box h3 {
+    color: #000;
+    text-align: center;
+}
+
+.AC67 .AC67box h4 {
+    color: #333;
+    text-align: center;
+}
+
+.AC67 .AC67pic1 {
+    width: 1100px;
+    margin-top: 40px;
+}
+
+/*8888888*/
+
+.AC68 {
+    height: 900px;
+    background-color: #dadada;
+}
+
+.AC68 .AC68pic1 {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -960px;
+    width: 1920px;
+}
+
+/*小图*/
+
+/*9999999*/
+
+.AC69 {
+    background: #fff;
+    height: 800px;
+}
+
+.AC69 .AC69box {
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+    width: 500px;
+    z-index: 3;
+}
+
+.AC69 .AC69box h3 {
+    color: #000;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.AC69 .AC69box h4 {
+    width: 450px;
+    color: #333;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.AC69 .AC69box .AC692pic2 {
+    width: 300px;
+    display: block;
+    z-index: 3;
+}
+
+.AC69 .AC691pic1 {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 900px;
+    z-index: 1
+}
+
+/*AC9S8*/
+
+.AC9S8 {
+    height: 900px;
+    background: #333333;
+    position: relative;
+}
+
+/* flexslider */
+.slides li {
+    width: 1920px;
+    height: 900px;
+}
+
+.flexslider {
+    background: url("../../images/AC6/loading-2.gif") /*tpa=http://www.tenda.com.cn/picture2015/loading.gif*/ 50% no-repeat;
+    width: 1920px;
+    height: 900px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.slides {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.slides li img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-control-nav {
+    position: absolute;
+    bottom: 100px;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    display: inline-block;
+    width: 45px;
+    height: 5px;
+    margin: 0 5px;
+    *display: inline;
+    zoom: 1;
+}
+
+.flex-control-nav a {
+    display: inline-block;
+    width: 45px;
+    height: 5px;
+    margin: 1px;
+    text-indent: -9999px;
+    border: none;
+    background-color: #ccc;
+}
+
+.flex-control-nav .flex-active {
+    margin: 0;
+    width: 45px;
+    height: 5px;
+    text-indent: -9999px;
+    background-color: #f60;
+}
+
+/* Direction Nav */
+.flex-direction-nav {
+    *height: 0;
+}
+
+.flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 48px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    text-indent: -999em
+}
+
+.flex-direction-nav .flex-prev {
+    height: 70px;
+    width: 35px;
+    opacity: .5;
+}
+
+.flex-direction-nav .flex-next {
+    height: 70px;
+    width: 35px;
+    opacity: .5;
+}
+
+.flexslider:hover .flex-prev {
+    opacity: 0.7;
+    background: url("../../images/AC6/controls.png") no-repeat -67px -11px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+.flexslider:hover .flex-next {
+    opacity: 0.7;
+    background: url("../../images/AC6/controls.png") no-repeat -18px -11px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+    opacity: 1;
+}
+
+.flex-direction-nav .flex-disabled {
+    opacity: 0 !important;
+    filter: alpha(opacity=0);
+    cursor: default;
+}
+
+/*101010*/
+
+.AC610 {
+    height: 800px;
+    background-color: #fff;
+}
+
+.AC610 .AC610box {
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    width: 600px;
+    z-index: 2;
+}
+
+.AC610 .AC610box h3 {
+    color: #000;
+    text-align: left;
+}
+
+.AC610 .AC610box h4 {
+    color: #333;
+    text-align: left;
+    margin-top: 30px;
+    width: 500px;
+}
+
+.AC610 .AC610pic2 {
+    width: 600px;
+    z-index: 2;
+    margin-top: 55px;
+    padding-bottom: 55px;
+}
+
+/*小图*/
+
+.AC610 .AC610pic1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 800px;
+    z-index: 1;
+}
+
+/*last*/
+
+.AC6last {
+    height: 1470px;
+    background-color: #000;
+}
+
+.AC6last .AC6lastpic1 {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -960px;
+    width: 1920px;
+}
+.BoxCell{
+    position: relative;
+}

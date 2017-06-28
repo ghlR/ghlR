@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tenda 产品导航</title>
+
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/css_public/bootstrap.css">
+    <link rel="stylesheet" href="../css/guide.css">
+
+    <!-- PC端 样式-->
+    <link rel="stylesheet" href="../css/css_public/PC_public.css" type="text/css" media="all">
+
+    <!-- Pad端 样式-->
+    <link rel="stylesheet" href="../css/css_public/Pad_public.css" type="text/css" media="screen and (min-width:768px) and (max-width:991px)" />
+
+    <!-- Phone端 样式-->
+    <link rel="stylesheet" href="../css/css_public/Phone_public.css" media="screen and (max-width:767px)">
+</head>
+<body>
+<div class="container-fluid box">
+<!--导航条的位置-->
+
+<!--***************************导航条*************-->
+<nav class="navbar navbar-default" id="nav">
+    <div class="container my_container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" id="phone_btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="../index.html"><!--javascript:location.reload(); 用于刷新当前网页-->
+                <h1 class="logo">Tenda</h1>
+                <img src="../images/index_img/logoy.png">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" id="nav_ul">
+                <li id="nav_jyli"><a href="#">家用产品</a></li>
+                <li id="nav_syli"><a href="#">商用网络</a></li>
+                <li id="nav_gfli"><a href="#">官方商城</a></li>
+                <li id="nav_cpli"><a href="#">产品导购</a></li>
+                <li id="nav_fwli"><a href="../html/fw_support.html">服务支持</a></li>
+                <li id="nav_zjli"><a href="#">走进腾达</a></li>
+                <form action="../index.html" method="post" class="navbar-form navbar-left">
+                    <div class="form-group search">
+                        <input type="text" class="form-control" maxlength="10" id="search" placeholder="产品搜索">
+                    </div>
+                </form>
+                <li id="global_sites"><a href="#">全球站点</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--********************家用产品二级 导航菜单*************************-->
+<div class="container-fluid jysec_nav">
+    <ul class="container">
+        <li class="jysec_nav_list">
+            <a href="javascript:;"><img src="../images/index_img/nav_jy01.png"></a>
+            <p href="#">路由器</p>
+        </li>
+        <li class="jysec_nav_list">
+            <a href="javascript:;"><img src="../images/index_img/nav_jy02.png"></a>
+            <p href="#">信号放大器</p>
+        </li>
+        <li class="jysec_nav_list">
+            <a href="javascript:;"><img src="../images/index_img/nav_jy03.png"></a>
+            <p href="#">无线网卡</p>
+        </li>
+        <li class="jysec_nav_list">
+            <a href="javascript:;"><img src="../images/index_img/nav_jy04.png"></a>
+            <p href="#">接入终端</p>
+        </li>
+        <li class="jysec_nav_list">
+            <a href="javascript:;"><img src="../images/index_img/nav_jy05.png"></a>
+            <p href="#">3G/4G</p>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy06.png"></a>
+            <p href="#">交换机</p>
+        </li>
+        <li class="jysec_nav_list">
+            <a href="javascript:;"><img src="../images/index_img/nav_jy07.png"></a>
+            <p href="#">电力线</p>
+        </li>
+        <li class="jysec_nav_list">
+            <a href="javascript:;"><img src="../images/index_img/nav_jy08.png"></a>
+            <p href="#">网络摄像机</p>
+        </li>
+    </ul>
+</div>
+
+<!--********************官方商城二级 导航菜单*************************-->
+<div class="container-fluid gfsec_nav">
+    <ul class="container">
+        <li>
+            <a href="http://tenda.jd.com/" target ="_blank"><img src="../images/index_img/mall_jd.png"></a>
+            <p>京东官方旗舰店</p>
+        </li>
+        <li>
+            <a href="http://www.tenda.com.cn/tmall.html" target ="_blank"><img src="../images/index_img/mall_tm.png"></a>
+            <p>天猫官方旗舰店</p>
+        </li>
+        <li>
+            <a href="http://shop.suning.com/70088489/index.html" target ="_blank"><img src="../images/index_img/mall_sn.png"></a>
+            <p>苏宁官方旗舰店</p>
+        </li>
+        <li>
+            <a href="http://www.tenda.com.cn/news/8304.html" target ="_blank"><img src="../images/index_img/mall_guide.jpg"></a>
+            <p>QQ群 : 361716652</p>
+        </li>
+    </ul>
+</div>
+
+
+<!--导航条的位置 end-->
+
+
+
+<div id="ProBox">
+    <!--产品导购-->
+    <div class="product_guide">
+        <div class="container">
+            <form name="chooseFrom">
+                <div class="row">
+                    <div class="pro_guide_main">
+                        <div class="v-fold  clearfix">
+                            <strong>传输速率：</strong>
+                            <ul>
+                                <input type="hidden" class="productseachinput" id="sulv" value="0"/>
+                                <li rel="0" class="buxian">
+                                    <a href="javascript:void(0)" class="cur">全部</a>
+                                </li>
+                                <li rel="1" class="hidden-xs">
+                                    <a href="javascript:void(0)">150M</a>
+                                    <span style="display:none;">150M</span>
+                                </li>
+                                <li rel="2" class="hidden-xs">
+                                    <a href="javascript:void(0)">200M</a>
+                                    <span style="display:none;">200M</span>
+                                </li>
+                                <li rel="3" class="hidden-xs">
+                                    <a href="javascript:void(0)">300M</a>
+                                    <span style="display:none;">300M</span>
+                                </li>
+                                <li rel="4">
+                                    <a href="javascript:void(0)">450M</a>
+                                    <span style="display:none;">450M</span>
+                                </li>
+                                <li rel="5">
+                                    <a href="javascript:void(0)">650M</a>
+                                    <span style="display:none;">650M</span>
+                                </li>
+                                <li rel="6">
+                                    <a href="javascript:void(0)">750M</a>
+                                    <span style="display:none;">750M</span>
+                                </li>
+                                <li rel="7">
+                                    <a href="javascript:void(0)">1200M</a>
+                                    <span style="display:none;">1200M</span>
+                                </li>
+                                <li rel="8">
+                                    <a href="javascript:void(0)">1750M</a>
+                                    <span style="display:none;">1750M</span>
+                                </li>
+                                <li rel="9">
+                                    <a href="javascript:void(0)">1900M</a>
+                                    <span style="display:none;">1900M</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="v-fold  clearfix">
+                            <strong>协议标准：</strong>
+                            <ul>
+                                <input type="hidden" class="productseachinput" id="xy" value="0"/>
+                                <li rel="0" class="buxian">
+                                    <a href="javascript:void(0)" class="cur">全部</a>
+                                </li>
+                                <li rel="1">
+                                    <a href="javascript:void(0)">802.11n</a>
+                                    <span style="display:none;">802.11n</span>
+                                </li>
+                                <li rel="2">
+                                    <a href="javascript:void(0)">802.11ac</a>
+                                    <span style="display:none;">802.11ac</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="v-fold clearfix hidden-xs ">
+                            <strong>家用产品：</strong>
+                            <ul id="uiguide">
+                                <input type="hidden" class="productseachinput" id="typeid" value="0"/>
+                                <li rel="0" class="buxian lihome">
+                                    <a href="javascript:void(0)" class="cur">全部</a>
+                                </li>
+                                <li rel="149" class="lihome">
+                                    <a href="javascript:void(0);" title="路由器">路由器</a>
+                                    <span style="display:none;">149</span>
+                                </li>
+                                <li rel="152" class="lihome">
+                                    <a href="javascript:void(0);" title="信号放大器">信号放大器</a>
+                                    <span style="display:none;">152</span>
+                                </li>
+                                <li rel="170" class="lihome">
+                                    <a href="javascript:void(0);" title="无线网卡">无线网卡</a>
+                                    <span style="display:none;">170</span>
+                                </li>
+                                <li rel="158" class="lihome">
+                                    <a href="javascript:void(0);" title="接入终端">接入终端</a>
+                                    <span style="display:none;">158</span>
+                                </li>
+                                <li rel="165" class="lihome">
+                                    <a href="javascript:void(0);" title="3G/4G">3G/4G</a>
+                                    <span style="display:none;">165</span>
+                                </li>
+                                <li rel="176" class="lihome">
+                                    <a href="javascript:void(0);" title="交换机">交换机</a>
+                                    <span style="display:none;">176</span>
+                                </li>
+                                <li rel="173" class="lihome">
+                                    <a href="javascript:void(0);" title="电力线">电力线</a>
+                                    <span style="display:none;">173</span>
+                                </li>
+                                <li rel="197" class="lihome">
+                                    <a href="javascript:void(0);" title="网络摄像机">网络摄像机</a>
+                                    <span style="display:none;">197</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="v-fold clearfix hidden-xs">
+                            <strong>商用网络：</strong>
+                            <ul id="guidebusiness">
+                                <input type="hidden" class="productseachinput" id="biid" value="0"/>
+                                <li rel="0" class="buxian libussiness">
+                                    <a href="javascript:void(0)" class="cur">全部</a>
+                                </li>
+                                <li rel="201" class="libussiness">
+                                    <a href="javascript:void(0);" title="企业无线路由器">企业无线路由器</a>
+                                    <span style="display:none;">201</span>
+                                </li>
+                                <li rel="186" class="libussiness">
+                                    <a href="javascript:void(0);" title="无线AP">无线AP</a>
+                                    <span style="display:none;">186</span>
+                                </li>
+                                <li rel="189" class="libussiness">
+                                    <a href="javascript:void(0);" title="交换机">交换机</a>
+                                    <span style="display:none;">189</span>
+                                </li>
+                                <li rel="169" class="libussiness">
+                                    <a href="javascript:void(0);" title="AP控制器">AP控制器</a>
+                                    <span style="display:none;">169</span>
+                                </li>
+                                <li rel="182" class="libussiness">
+                                    <a href="javascript:void(0);" title="企业路由器">企业路由器</a>
+                                    <span style="display:none;">182</span>
+                                </li>
+                                <li rel="204" class="libussiness">
+                                    <a href="javascript:void(0);" title="其它产品">其它产品</a>
+                                    <span style="display:none;">204</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="v-fold clearfix hidden-xs" style=" border:none;">
+                            <strong>在线购买：</strong>
+                            <ul id="Ul1">
+                                <li class="buxian ">
+                                    <a href="javascript:void(0)" class="cur">全部</a>
+                                </li>
+                                <li>
+                                    <a href="https://tengda.tmall.com/" title="优惠券">天猫商城</a>
+                                </li>
+                                <li>
+                                    <a href="http://tenda.jd.com/" title="优惠券">京东商城</a>
+                                </li>
+                                <li>
+                                    <a href="http://shop.suning.com/70088489/index.html" title="优惠券">苏宁易购</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--产品导购 end-->
+
+    <!--产品列表-->
+    <div class="container  clearfix">
+        <div class="row ProList" id="productresult">
+        </div>
+    </div>
+    <!--产品列表 end-->
+
+
+    <!--加载下一页-->
+    <div class="pro_more" id="pageinfo" data-start="0">
+        <a href="javascript:void(0);" data-start="0">加载下一页</a>
+    </div>
+    <!--加载下一页 end-->
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--******************************尾部*****************************-->
+<div class="container-fluid footer">
+    <div class="container">
+        <div class="row Phone_footer">
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>服务支持</span>
+                <li><a href="#" target="_blank">下载中心</a></li>
+                <li><a href="#" target="_blank">帮助文档</a></li>
+                <li><a href="#" target="_blank">视频中心</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>售后服务</span>
+                <li><a href="#" target="_blank">保修政策</a></li>
+                <li><a href="#" target="_blank">售后网点</a></li>
+                <li><a href="#" target="_blank">产品退市声明</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>关于腾达</span>
+                <li><a href="#" target="_blank">公司介绍</a></li>
+                <li><a href="#" target="_blank">联系方式</a></li>
+                <li><a href="#" target="_blank">企业动态</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>工作机会</span>
+                <li><a href="#" target="_blank">社会招聘</a></li>
+                <li><a href="#" target="_blank">校园招聘</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>官方商城</span>
+                <li><a href="#" target="_blank">天猫旗舰店</a></li>
+                <li><a href="#" target="_blank">京东旗舰店</a></li>
+                <li><a href="#" target="_blank">苏宁旗舰店</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>关注腾达</span>
+                <li><a href="#" target="_blank">腾达官方微博</a></li>
+                <li><a href="#" target="_blank">达官方微信</a></li>
+                <li><a href="#" target="_blank">腾达官方Q群</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copy_line"></div>
+    <div class="container-fluid row copy">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <p>
+                <a href="#" target="_blank">使用条款</a>&nbsp;
+                <a href="#" target="_blank">隐私保护</a>&nbsp;&nbsp;&nbsp;
+                深圳市吉祥腾达科技有限公司 &copy; 2017 版权所有 粤ICP备05011718号
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--***************************返回顶部*****************************-->
+<div id="to_Top">
+    <span></span>
+</div>
+
+</div>
+<script src="../js/js_public/jquery-3.1.1.js"></script>
+<script src="../js/js_public/bootstrap.js"></script>
+<script src="../js/js_public/ajax4.js"></script>
+<script src="../js/guide.js"></script>
+<script src="../js/js_public/public.js"></script>
+
+
+</body>
+</html>

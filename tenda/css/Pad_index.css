@@ -1,0 +1,16 @@
+@charset "utf-8";
+@media screen and (min-width:768px) and (max-width:991px) {
+    .container {
+        max-width: none;
+        width: 100%;
+    }
+    /****************************焦点图**********************/
+    .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .banner_img img {
+        transform: scaleX(1);
+    }
+}

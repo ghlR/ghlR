@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .container{
+        max-width: none;
+        width:100%;
+    }
+    /******************************导航条部分**********/
+    .my_container{
+        padding:0 70px;
+    }
+    #nav #nav_ul li{
+        margin-right:0;
+    }
+    #nav_zjli,#global_sites{
+        display: none;
+    }
+    #nav #search{
+        width: 120px;
+        margin-top:2px;
+        border-radius:2px;
+    }
+    .nav>li>a{
+        padding:15px 10px;
+    }
+
+}
+
+
+

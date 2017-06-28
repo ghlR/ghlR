@@ -1,0 +1,113 @@
+
+@media screen and (max-width:767px) {
+    .container {
+        max-width: none;
+        width: 100%;
+        padding-right:0;
+    }
+    /******************************导航条部分**********/
+    .my_container {
+        padding-left: 0;
+    }
+    #nav {
+        width: 100%;
+        margin-bottom: 0;
+        background: #252525;
+        position: relative;
+        border: 0;
+        border-top: 0;
+        border-bottom: 1px rgba(255, 255, 255, 0.15) solid;
+        overflow: hidden;
+    }
+    .navbar-default .navbar-toggle{
+        border:none;
+    }
+    .navbar-default .navbar-toggle:hover{
+        background: none;
+    }
+    .navbar-nav{
+        margin:0;
+    }
+    .navbar-toggle .icon-bar{
+        height: 3px;
+    }
+    .navbar-collapse.in{
+        overflow:hidden;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+       border:none;
+        background: #eee;
+        margin:0;
+        padding:0;
+    }
+    .logo {
+        display: none;
+    }
+    #nav .logo h1 {
+        text-indent: -500em;
+    }
+    #nav .logo img {
+        width: 100px;
+        height: 24px;
+        position: absolute;
+        top: 11px;
+    }
+    #nav #search {
+        position: fixed;
+        z-index: 2;
+        top:10px;
+        right:60px;
+    }
+    #nav #nav_ul {
+        width:100%;
+        margin-right: -55px;
+    }
+    #nav_cpli,#nav_zjli,#global_sites{
+        display: none;
+    }
+    #nav #nav_ul li {
+        background: #eeeeee url("../../images/index_img/phone_nav.png")no-repeat right center;
+        margin-right:0;
+        border-bottom:1px solid #ccc;
+    }
+    #nav #nav_ul li a {
+        font-size: 16px;
+        width: 100%;
+        display: inline-block;
+        color: #252525;
+        padding:5px 0 5px 10px;
+
+    }
+    #nav #nav_ul li a:hover {
+        color: #252525;
+    }
+    .changecolor{
+        background-color:#f40 !important;
+    }
+
+    /*************************家用产品二级 导航菜单********************/
+    .jysec_nav{
+        background: none;
+    }
+    .jysec_nav ul {
+        margin-bottom: 0;
+        display: none;
+        height:0;
+    }
+
+    
+    /*************************官方商城二级 导航菜单********************/
+    .gfsec_nav{
+        background: none;
+    }
+    .gfsec_nav ul {
+        margin-bottom: 0;
+        display: none;
+        height: 0;
+    }
+}
+
+/**************************尾部************************/
+.Phone_footer{
+    display: none;
+}

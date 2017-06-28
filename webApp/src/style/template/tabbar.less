@@ -1,0 +1,30 @@
+.tabbar{
+  .h(49);
+  background: #fff;
+  position: fixed;
+  .left(0);
+  .bottom(0);
+  .right(0);
+  border-top:1px solid #ccc;
+  ul{
+    list-style: none;
+    .fs(14);
+    display: flex;
+    .mt(2);
+    li{
+      .fl;
+      flex:1;
+      text-align: center;
+      .icon{
+        display: block;
+        img{
+          .w(25);
+          .h(25);
+        }
+      }
+    }
+    .active{
+      color:deepskyblue;
+    }
+  }
+}

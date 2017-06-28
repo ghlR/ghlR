@@ -1,0 +1,74 @@
+
+/*.row{*/
+    /*margin-right: -15px;*/
+    /*margin-left: -15px;*/
+/*}*/
+
+.row{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+/*.wuxian{*/
+    /*padding-right: 0;*/
+    /*margin-right: 0;*/
+/*}*/
+
+/*.back{*/
+    /*width: 100%;*/
+    /*margin-left: -500px;*/
+    /*height: 292px;*/
+
+/*}*/
+.back img{
+    width: 100%;
+}
+.textbox{
+    position: absolute;
+    left: 20px;
+    top: 60px;
+}
+.textbox h2{
+    padding-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: normal;
+    color: #000;
+}
+.textbox p{
+    font-size: 1em;
+    color: #000;
+}
+
+
+
+
+
+.sel{
+    height: 235px;
+}
+.sel h1{
+    margin-top: 80px;
+}
+.sel .h1des{
+    margin-top: 25px;
+}
+
+.wheretobuyR1{
+    height: 300px;
+    padding: 5em 0;
+    background-color: #efefef;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>服务支持,自助服务,帮助文档,下载中心_腾达(Tenda)官网</title>
+<link rel="stylesheet" href="../css/css_public/bootstrap.css">
+
+<!-- PC端 样式-->
+<link rel="stylesheet" href="../css/css_public/PC_public.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/PC_index.css" type="text/css" media="all">
+<!-- Pad端 样式-->
+<link rel="stylesheet" href="../css/css_public/Pad_public.css" type="text/css" media="screen and (min-width:768px) and (max-width:991px)" />
+<link rel="stylesheet" href="../css/Pad_index.css" type="text/css" media="screen and (min-width:768px) and (max-width:991px)" />
+<!-- Phone端 样式-->
+<link rel="stylesheet" href="../css/css_public/Phone_public.css" media="screen and (max-width:767px)">
+<link rel="stylesheet" href="../css/Phone_index.css" media="screen and (max-width:767px)">
+
+<script src="../js/js_public/jquery-3.1.1.js"></script>
+<script src="../js/js_public/bootstrap.js"></script>
+
+<style>
+    /***********************获取服务与支持****************************/
+    .get_support{
+        padding-top:47px;
+        width: 100%;
+        background: #F4F4F4;
+    }
+    .get_support_search h3{
+        font-size: 26px;
+        margin-top: 3em;
+        color:#000;
+    }
+    .get_support_search p{
+        font-size: 16px;
+        margin-top: 1.5em;
+        margin-bottom:4px;
+        color: #555;
+    }
+    .get_support_search input:nth-child(1){
+        font-family:"宋体";
+        border: 2px solid #FD4F00;
+        background-color: #f2f2f2;
+        width: 242px;
+        height: 30px;
+        line-height: 30px;
+        overflow: hidden;
+        padding: 15.5px 5px;
+        margin: 0;
+        font-size: 12px;
+    }
+    #search_Btn{
+        width: 39px;
+        height: 35px;
+        background:url("../images/fw_support/btnfaq.png")no-repeat;
+        position: relative;
+        left:-5px;
+        top:14px;
+    }
+    .get_support_search a{
+        display: block;
+        margin-top:10px;
+        color:#000;
+        font-size:14px;
+        letter-spacing:0.5px;
+    }
+    .get_support_search a:hover{
+        color:#FD4F00;
+    }
+    .get_support_bg img{
+        width: 95%;
+    }
+
+    /*************************各项服务*****************************/
+    .var_services{
+        background: #fff;
+        padding:100px 0 75px 0;
+    }
+    .services_list{
+        text-align: center;
+    }
+    .services_list a h4{
+        font-family:"微软雅黑";
+        color:#000;
+        padding-bottom:30px;
+    }
+    .services_list a img{
+        padding-bottom:20px;
+    }
+    .services_list a p{
+        color:#777777;
+        font-size:16px;
+        font-family:"微软雅黑";
+    }
+
+    /***********************常见问题************************/
+    .serve_list{
+        padding-bottom:30px;
+    }
+    .Fre_Ask_Quest{
+        width: 100%;
+        background: #f2f2f2;
+        padding-bottom:50px;
+    }
+    .content{
+        text-align: center;
+    }
+    .content .sec_title{
+        margin-top:68px;
+        font-size:22px;
+        color:#000;
+    }
+    .content em{
+        font-style: normal;
+    }
+    .content a{
+        color:#000;
+        font-size:16px;
+    }
+    .content a:hover{
+        color:#fd4f00;
+    }
+    .title_line{
+        /*background:url("../images/index_img/lineb.png")no-repeat center 0;*/
+        margin:17px 0 21px 0;
+    }
+    .FAQ_list ul li{
+        background:url("../images/fw_support/FAQ_icon.png")no-repeat left center;
+        line-height:35px;
+    }
+    .FAQ_list ul li a{
+        margin-left:20px;
+        font-size:16px;
+        color:#000;
+    }
+    .FAQ_list ul li a:hover{
+        color:#fd4f00;
+    }
+
+    /**********************联系方式************************/
+    .contact_way{
+        background: #fff;
+        padding:120px 0 100px 0;
+    }
+    .contact_list{
+        text-align: center;
+    }
+    .contact_list img{
+        height: 48px;
+    }
+    .contact_list h4{
+        padding:15px 0 5px 0;
+        font-size:16px;
+        color:#000000;
+    }
+    .contact_list p{
+        font-size: 14px;
+        color:#777777;
+    }
+</style>
+</head>
+<body>
+<!--***************************导航条*********************-->
+<nav class="navbar navbar-default" id="nav">
+    <div class="container my_container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="../index.html"><!--javascript:location.reload(); 用于刷新当前网页-->
+                <h1 class="logo">Tenda</h1>
+                <img src="../images/index_img/logoy.png">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" id="nav_ul">
+                <li id="nav_jyli"><a href="#">家用产品</a></li>
+                <li id="nav_syli"><a href="#">商用网络</a></li>
+                <li id="nav_gfli"><a href="#">官方商城</a></li>
+                <li id="nav_cpli"><a href="#">产品导购</a></li>
+                <li id="nav_fwli"><a href="fw_support.html">服务支持</a></li>
+                <li id="nav_zjli"><a href="#">走进腾达</a></li>
+                <form action="../index.html" method="post" class="navbar-form navbar-left">
+                    <div class="form-group search">
+                        <input type="text" class="form-control" maxlength="10" id="search" placeholder="产品搜索">
+                    </div>
+                </form>
+                <li><a href="#">全球站点</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--*******************家用产品二级 导航菜单*****************-->
+<div class="container-fluid jysec_nav">
+    <ul class="container">
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy01.png"></a>
+            <p href="#">路由器</p>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy02.png"></a>
+            <p href="#">信号放大器</p>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy03.png"></a>
+            <p href="#">无线网卡</p>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy04.png"></a>
+            <p href="#">接入终端</p>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy05.png"></a>
+            <p href="#">3G/4G</p>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy06.png"></a>
+            <p href="#">交换机</p>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy07.png"></a>
+            <p href="#">电力线</p>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../images/index_img/nav_jy08.png"></a>
+            <p href="#">网络摄像机</p>
+        </li>
+    </ul>
+</div>
+
+<!--********************官方商城二级 导航菜单****************-->
+<div class="container-fluid gfsec_nav">
+    <ul class="container">
+        <li>
+            <a href="http://tenda.jd.com/" target ="_blank"><img src="../images/index_img/mall_jd.png"></a>
+            <p>京东官方旗舰店</p>
+        </li>
+        <li>
+            <a href="http://www.tenda.com.cn/tmall.html" target ="_blank"><img src="../images/index_img/mall_tm.png"></a>
+            <p>天猫官方旗舰店</p>
+        </li>
+        <li>
+            <a href="http://shop.suning.com/70088489/index.html" target ="_blank"><img src="../images/index_img/mall_sn.png"></a>
+            <p>苏宁官方旗舰店</p>
+        </li>
+        <li>
+            <a href="http://www.tenda.com.cn/news/8304.html" target ="_blank"><img src="../images/index_img/mall_guide.jpg"></a>
+            <p>QQ群 : 361716652</p>
+        </li>
+    </ul>
+</div>
+
+<!--***********************获取(搜索)服务与支持*******************-->
+<div class="container-fluid get_support">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-1 col-md-1"></div>
+            <div class="col-xs-12 col-sm-5 col-md-5 get_support_search">
+                <h3>获取服务与支持</h3>
+                <p>产品相关下载及帮助文档…</p>
+                <form action="fw_support.html" method="post">
+                    <input type="text" maxlength="8" placeholder="请输入产品型号">
+                    <input type="button" id="search_Btn" style="border:none;">
+                </form>
+                <a href="#" target="_blank">如何查看产品型号?</a>
+            </div>
+            <div class="col-sm-6 col-md-6 get_support_bg">
+                <img src="../images/fw_support/serviceman.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--***********************各项服务************************-->
+<div class="container-fluid var_services">
+    <div class="container">
+        <div class="row services_list">
+            <div class="col-xs-4 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <h4>帮助文档</h4>
+                    <img src="../images/fw_support/sshelp.png">
+                    <p>产品帮助文档</p>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <h4>下载中心</h4>
+                    <img src="../images/fw_support/ssdown.png">
+                    <p>团建/高清图</p>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <h4>售后网点</h4>
+                    <img src="../images/fw_support/ssnet.png">
+                    <p>售后联系方式</p>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <h4>视频中心</h4>
+                    <img src="../images/fw_support/ssvedio.png">
+                    <p>产品/品牌宣传</p>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <h4>保修政策</h4>
+                    <img src="../images/fw_support/sstushi.png">
+                    <p>产品售后保修</p>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <h4>产品退市</h4>
+                    <img src="../images/fw_support/cpbx.png">
+                    <p>产品退市声明</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--***********************常见问题************************-->
+<div class="container-fluid Fre_Ask_Quest">
+    <div class="row content">
+        <h2 class="col-xs-12 col-sm-12 col-md-12 sec_title" >常见问题</h2>
+        <div class="col-xs-12 col-sm-12 col-md-12 title_line"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 serve_list">
+            <a href="javascript:;">热门文档</a><em>&nbsp;|</em>
+            <a href="javascript:;">设置上网</a><em>&nbsp;|</em>
+            <a href="javascript:;">故障排除</a><em>&nbsp;|</em>
+            <a href="javascript:;">功能配置</a><em>&nbsp;|</em>
+            <a href="javascript:;">网络基础</a><em>&nbsp;|</em>
+            <a href="javascript:;">无限配置</a><em>&nbsp;|</em>
+        </div>
+    </div>
+        <div class="container FAQ_list">
+            <ul class="col-xs-12 col-sm-12 col-md-5">
+                <li><a href="#" target="_blank">无线信号已连接上不了网，出现路由器登录界面，怎么办？</a></li>
+                <li><a href="#" target="_blank">用手机连接路由器如何修改无线密码？</a></li>
+                <li><a href="#" target="_blank">密码忘了怎么办？</a></li>
+                <li><a href="#" target="_blank">192.168.0.1是什么？</a></li>
+                <li><a href="#" target="_blank">腾达(Tenda)无线路由器怎么恢复出厂设置?</a></li>
+                <li><a href="#" target="_blank">腾达（Tenda）路由器如何查询产品型号？</a></li>
+            </ul>
+            <div class="col-xs-0 col-sm-0 col-md-2"></div>
+            <ul class="col-xs-12 col-sm-12 col-md-5">
+                <li><a href="#" target="_blank">用手机如何设置无线路由器上网？</a></li>
+                <li><a href="#" target="_blank">接路由器后网速度慢，怎么办？</a></li>
+                <li><a href="#" target="_blank">腾达（Tenda）路由器设置后，上不了网怎么办？</a></li>
+                <li><a href="#" target="_blank">192.168.0.1打不开的解决办法（Windows 7系统）</a></li>
+                <li><a href="#" target="_blank">腾达无线路由器怎么修改无线密码和名称？</a></li>
+                <li><a href="#" target="_blank">腾达（Tenda）无线路由器 192.168.0.1 打不开怎么办？</a></li>
+            </ul>
+
+        </div>
+
+</div>
+
+<!--***********************联系方式************************-->
+<div class="container-fluid contact_way">
+    <div class="container">
+        <div class="row contact_list">
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <img src="../images/fw_support/tels.png">
+                    <h4>联系我们</h4>
+                    <p>客服热线业务咨询</p>
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <img src="../images/fw_support/mails.png">
+                    <h4>售后邮箱</h4>
+                    <p>tenda@tenda.com.cn</p>
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <img src="../images/fw_support/weibos.png">
+                    <h4>官方微博</h4>
+                    <p>分享企业新鲜事</p>
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <img src="../images/fw_support/weixins.png">
+                    <h4>官方微信</h4>
+                    <p>微信服务平台</p>
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <img src="../images/fw_support/facebook.png">
+                    <h4>Facebook</h4>
+                    <p>分享新鲜事</p>
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-sm-2 col-md-2">
+                <a href="#" target="_blank">
+                    <img src="../images/fw_support/twittert.png">
+                    <h4>Twitter</h4>
+                    <p>分享新鲜事</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--**********************尾部*****************************-->
+<div class="container-fluid footer Phone_footer">
+    <div class="container">
+        <div class="row">
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>服务支持</span>
+                <li><a href="#" target="_blank">下载中心</a></li>
+                <li><a href="#" target="_blank">帮助文档</a></li>
+                <li><a href="#" target="_blank">视频中心</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>售后服务</span>
+                <li><a href="#" target="_blank">保修政策</a></li>
+                <li><a href="#" target="_blank">售后网点</a></li>
+                <li><a href="#" target="_blank">产品退市声明</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>关于腾达</span>
+                <li><a href="#" target="_blank">公司介绍</a></li>
+                <li><a href="#" target="_blank">联系方式</a></li>
+                <li><a href="#" target="_blank">企业动态</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>工作机会</span>
+                <li><a href="#" target="_blank">社会招聘</a></li>
+                <li><a href="#" target="_blank">校园招聘</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>官方商城</span>
+                <li><a href="#" target="_blank">天猫旗舰店</a></li>
+                <li><a href="#" target="_blank">京东旗舰店</a></li>
+                <li><a href="#" target="_blank">苏宁旗舰店</a></li>
+            </ul>
+            <ul class="col-xs-2 col-sm-2 col-md-2">
+                <span>关注腾达</span>
+                <li><a href="#" target="_blank">腾达官方微博</a></li>
+                <li><a href="#" target="_blank">达官方微信</a></li>
+                <li><a href="#" target="_blank">腾达官方Q群</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copy_line"></div>
+    <div class="container-fluid row copy">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <p>
+                <a href="#" target="_blank">使用条款</a>&nbsp;
+                <a href="#" target="_blank">隐私保护</a>&nbsp;&nbsp;&nbsp;
+                深圳市吉祥腾达科技有限公司 &copy; 2017 版权所有 粤ICP备05011718号
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--********************返回顶部*****************************-->
+<div id="to_Top">
+    <span></span>
+</div>
+
+</body>
+<script src="../js/js_public/public.js"></script>
+</html>

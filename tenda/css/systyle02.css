@@ -1,0 +1,81 @@
+
+.ve{
+    height: 143px;
+    margin-top: 80px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.casecenterlist {
+    background-color: #fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    margin-top: 0em;
+}
+
+.casecenterlistbox>div {
+    margin-bottom: 2em;
+}
+
+
+.casecenterlist .caption {
+    background-color: #efefef;
+    padding: 1em 1em;
+    box-shadow: 0px 2px 3px #e6e6e6;
+    -webkit-box-shadow: 0px 2px 3px #e6e6e6;
+    -moz-box-shadow: 0px 2px 3px #e6e6e6;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+.casecenterlist .caption h3 {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: left;
+    overflow: hidden;
+}
+
+.casecenterlist .caption h3 a{
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.casecenterlist .caption h3 a:hover{
+    color: orangered;
+}
+
+.casecenterlist .caption p {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5em;
+    color: #777;
+    height: 6em;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.thumbnail{
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+.thumbnail .img{
+    transition: all 1s;
+}
+.thumbnail .img:hover{
+    transform: scale(0.98);
+}
+

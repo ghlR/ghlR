@@ -1,0 +1,91 @@
+
+
+body{
+  font: 16px/1.6 "\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"\5B8B\4F53" !important;;
+  background-color: #f2f2f2;
+}
+
+
+
+/**header begin***************************************/
+.header{
+    /*border-top: 1px solid red;*/
+    padding: 100px 0;
+    color:#fff;
+    background-color: #252525;
+}
+.header .tab{
+    /*height: 112px;*/
+    text-align: center;
+    font-weight:500;
+}
+.header .tab .app-menu{
+    padding: 25px 10px;
+}
+.header .tab li{
+    display: inline-block;
+    margin: 0 1px;
+}
+.header .tab li a{
+    padding: 6px 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.header .tab li a:hover{
+    background-color: #252525;
+}
+.header .tab li.active1 a{
+    border-radius: 30px;
+    background-color: #77818b;
+}
+@media (max-width: 768px){
+    .header {
+        padding: 30px 0;
+    }
+    .header .tab{
+        /*height: 67px;*/
+        font-weight: 300;
+    }
+    .header .tab .app-menu{
+        padding: 10px 10px;
+    }
+    .header .tab li a{
+        padding: 3px 10px;
+        font-size: 14px;
+        color: #fff;
+    }
+    .description{
+        font-size: 12px;
+    }
+}
+
+
+/*section-figures begin*************************************/
+.section-figures{
+    padding: 60px 0;
+    text-align: center;
+    vertical-align: middle;
+    width:100%;
+    background-color: #fff;
+}
+.card .card-icon{
+    /*max-width: 90%;*/
+    width: 90%;
+}
+.section-figures .card-body h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*container-bg begin****************************/
+.container-bg{
+    background-color: #f2f2f2;
+}
+.container-bg .pagecontent p{
+    padding-top: 20px;
+}
+.container-bg .pagecontent ul li{
+    color: #f60;
+}
+
+/*footer begin****************************/

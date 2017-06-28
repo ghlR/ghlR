@@ -1,0 +1,210 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "微软雅黑";
+}
+a:hover{
+    text-decoration:none;
+}
+.box{
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+/******************************导航条部分**********/
+.my_container{
+    padding-left:0;
+}
+#nav{
+    width: 100%;
+    margin-bottom:0;
+    background: #252525;
+    position: relative;
+    border:0;
+    border-top:0;
+    border-bottom:1px rgba(255,255,255,0.15) solid;
+    border-radius:0px;
+    overflow: hidden;
+}
+.logo{
+    display: none;
+}
+#nav .logo h1{
+    text-indent:-500em;
+}
+#nav .logo img{
+    width: 100px;
+    height: 24px;
+    position: absolute;
+    top:11px;
+}
+#nav #search{
+    vertical-align: top;
+    font-family:"宋体";
+    font-size:12px;
+    color:#333;
+    width: 130px;
+    margin-top: 2px;
+    height: 28px;
+    text-align: center;
+    border:0;
+    border-radius:2px;
+    background: #333333 url("../../images/index_img/search-icon.png")no-repeat 8px center;
+    background-size:15px;
+    -webkit-transition: background-color 0.1s ease-out 0s;
+    transition: background-color 0.1s ease-out 0s;
+    box-shadow: none;
+}
+#nav #nav_ul{
+    margin-right:-55px;
+}
+#nav #nav_ul li{
+    margin-right:20px;
+}
+#nav #nav_ul li a{
+    font-size:14px;
+    width: 100%;
+    display: inline-block;
+    color:#cecece;
+}
+#nav #nav_ul li a:hover{
+    color:#fff;
+}
+
+/*************************家用产品二级 导航菜单********************/
+.jysec_nav{
+    width: 100%;
+    background: rgba(37,37,37,0.8);
+    position: absolute;
+    z-index: 7;
+    display: none;
+}
+.jysec_nav ul{
+    margin-bottom: 0;
+    height:auto;
+}
+.jysec_nav li{
+    cursor: pointer;
+    text-align: center;
+    padding:15px;
+    width: 12.5%;
+    float: left;
+}
+.jysec_nav li:hover{
+    background: rgba(0,0,0,0.2);
+}
+.jysec_nav li img{
+    position: relative;
+    bottom:0;
+    margin-bottom:10px;
+    max-width: 100%;
+    height: auto;
+}
+.jysec_nav li:hover img{
+    transition:all 0.3s;
+    bottom:3px;
+    position: relative;
+}
+.jysec_nav_list{
+    transition:all 0.4s;
+    bottom:0;
+    position: relative;
+}
+.jysec_nav li p{
+    color:#aaa;
+}
+
+/*************************官方商城二级 导航菜单********************/
+.gfsec_nav{
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    z-index: 7;
+    display: none;
+}
+.gfsec_nav ul{
+    margin-bottom:0;
+}
+.gfsec_nav li{
+    cursor: pointer;
+    text-align: center;
+    padding:20px;
+    width: 24%;
+    float: left;
+    background:url("../../images/index_img/vline.jpg")no-repeat right center;
+}
+.gfsec_nav li:nth-last-of-type(1){
+    background: none;
+}
+.gfsec_nav li p{
+    font-size:16px;
+}
+
+/**************************尾部************************/
+.footer{
+    border-top: solid 2px #f60;
+    width: 100%;
+    background:#3f3b39;
+}
+.footer ul{
+    padding-bottom:40px;
+}
+.footer ul span{
+    font-size:16px;
+    color:#eee;
+    display: inline-block;
+    margin:40px 0 22px 0px;
+}
+.footer ul li a{
+    color:#ccc;
+}
+.footer ul li a:hover{
+    color:#fd4f00;
+}
+.copy_line{
+    width: 100%;
+    height: 1px;
+    background: #333;
+}
+.copy p,a{
+    font-size:13px;
+}
+.copy p{
+    padding:16px 0;
+    color:#eee;
+    text-align: center;
+}
+.copy p a{
+    display: inline;
+    color:#eee;
+}
+.copy p a:hover{
+    color:#fd4f00;
+}
+
+/**********************返回顶部**************************/
+#to_Top{
+    display: none;
+}
+#to_Top span{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("../../images/index_img/toTop_icon.png") no-repeat 0 0;
+
+    cursor: pointer;
+    position: fixed;
+    right:10px;
+    bottom:13%;
+    border-radius:50%;
+}
+#to_Top span:hover{
+    background: url("../../images/index_img/toTop_icon.png") no-repeat  -50px 0px;;
+
+}
