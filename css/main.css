@@ -69,7 +69,7 @@ background-size: cover;*/
 
 .container_open {
     position: fixed !important;
-    display: inline-block;
+    display: block;
     height: 120px;
 }
 /*  Navigation Hamburger Icon
